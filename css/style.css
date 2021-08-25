@@ -1,7 +1,27 @@
+body{
+    background-color: #ecf0f3;
+}
+
+h2 {
+    text-align: center;
+    color: #859eb1f5;
+}
+
+h4 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #fc0238f5;
+}
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
 
+.center_lan {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
