@@ -8,12 +8,9 @@ header{
  height: 80px;
  margin-top: -20px;
  background-color: aqua;
- line-height: 100%;
- text-align: center;
 }
 
 .banner{
-    background-color:rgb(81, 188, 221);
     color:aliceblue;
     line-height: 100vh;
     text-align: center;
@@ -21,7 +18,8 @@ header{
     
 }
 
-h3{
+
+h2{
     text-align: center;
     font-family: arial;
 }
@@ -29,20 +27,22 @@ h3{
 
 .dot{
     height:20vw;
-    margin: 32px;
+    margin: 28px;
     width:20vw;
-    background-color:rgb(168, 119, 59);
+    background-image: url(../assets/images/team1.png);
     border-radius:50%;
+    background-size: auto;
+
     display: inline-block;
 }
 
 .main{
     background-color:rgb(27, 25, 25);
-    width: 450px;
+    width: 50%;
     color:#fff;
-    padding:150px;
     font-family: arial;
-    text-align: center;
+    padding: 20px;
+    text-align: justify;
 }
 
 .container{
@@ -51,6 +51,8 @@ h3{
 }
 .small-container{
     display:block;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .other{
@@ -85,6 +87,5 @@ footer{
     color:aliceblue;
     text-align: center;
     padding:10px;
-    font-size: 50px;
     font-family: arial;
 }
